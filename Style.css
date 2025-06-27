@@ -1,0 +1,68 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  height: 100%;
+  background-color: #0d1b2a;
+  color: #f2e9dc;
+}
+
+.background {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Metatron_Cube.svg/1024px-Metatron_Cube.svg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(13, 27, 42, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: gold;
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  color: #a9def9;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: gold;
+  color: #0d1b2a;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.codex {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1.5em;
+  border: 1px solid #a9def9;
+  border-radius: 12px;
+  max-width: 600px;
+}
+
+.hidden {
+  display: none;
+}
